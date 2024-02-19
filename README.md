@@ -45,6 +45,14 @@ $ pnpm run start:dev
 $ pnpm run start:prod
 ```
 
+### OR Docker
+
+```bash
+# production mode
+$ docker build -t api-pi3 .
+$ docker run -d -p 80:80 api-pi3
+```
+
 ## Test
 
 ```bash
