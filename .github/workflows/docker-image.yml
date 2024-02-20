@@ -35,7 +35,7 @@ jobs:
       run: npm install -g vercel
 
     - name: Vercel Login
-      run: vercel login -t ${{ secrets.VERCEL_TOKEN }} 
+      run: vercel login --github
 
     - name: Deploy to Vercel
       run: vercel --prod
