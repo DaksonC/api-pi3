@@ -35,7 +35,7 @@ jobs:
       run: npm install -g vercel
 
     - name: Vercel Login
-      run: vercel login daksonc@gmail.com
+      run: vercel login --token uM8TF5Zij1VTkrNX9teDm1hR
 
     - name: Deploy to Vercel
       run: vercel --prod
