@@ -23,10 +23,10 @@ jobs:
         node-version: '18'
 
     - name: Install Dependencies
-      run: pnpm iinstall
+      run: npm iinstall
 
     - name: Build
-      run: pnpm build
+      run: npm run build
 
     # - name: Test
     #   run: npm test
