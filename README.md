@@ -48,8 +48,11 @@ $ pnpm run start:prod
 ### OR Docker
 
 ```bash
-# production mode
+# create image
 $ docker build -t api-pi3 .
+```
+```bash
+# run the container
 $ docker run -d -p 80:80 api-pi3
 ```
 
