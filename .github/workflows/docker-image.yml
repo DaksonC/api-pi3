@@ -20,14 +20,15 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '20'
+        node-version: '18'
 
     - name: Install Dependencies
-      run: npm install
+      run: pnpm i
 
     - name: Build
-      run: npm run build
+      run: pnpm build
 
     # - name: Test
     #   run: npm test
+
 
