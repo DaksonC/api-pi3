@@ -23,7 +23,7 @@ jobs:
         node-version: '18'
 
     - name: Install Dependencies
-      run: pnpm i
+      run: pnpm iinstall
 
     - name: Build
       run: pnpm build
